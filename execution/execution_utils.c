@@ -6,7 +6,7 @@
 /*   By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/27 20:01:07 by mel-fihr          #+#    #+#             */
-/*   Updated: 2024/11/25 17:33:41 by wabolles         ###   ########.fr       */
+/*   Updated: 2024/11/29 18:45:39 by wabolles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	ft_error(char *str2, char *str3)
 {
-	int	i;
-
-	i = 0;
 	ft_putstr_fd("minishell: ", 2);
 	ft_putstr_fd(str2, 2);
 	ft_putstr_fd(str3, 2);
