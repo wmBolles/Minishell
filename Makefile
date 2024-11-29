@@ -6,7 +6,7 @@
 #    By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/13 00:11:37 by wabolles          #+#    #+#              #
-#    Updated: 2024/11/26 10:11:41 by wabolles         ###   ########.fr        #
+#    Updated: 2024/11/29 18:44:57 by wabolles         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,9 +25,9 @@ SRC = main.c libft/ft_calloc.c libft/ft_isascii.c libft/ft_itoa.c libft/ft_memcp
 		parsing/expand_heredoc.c parsing/parse1.c libft/split_quotes2.c libft/helper.c libft/strtrock_norm.c \
 		parsing/expansion2.c parsing/expansion3.c parsing/send_command2.c parsing/send_command3.c \
 		parsing/redirections2.c parsing/redirections3.c execution/built_in/export_utils2.c \
-		garbage_collector/gc.c parsing/herdoc.c ./attr_fncs.c
+		garbage_collector/gc.c parsing/herdoc.c
 		
-OBJ = $(SRC:.c=.o)
+OBJ = $(SRC:.c=.o) attr_fncs.o
 
 READLINE_INC = -I$(shell brew --prefix readline)/include
 READLINE_LIB = -L$(shell brew --prefix readline)/lib -lreadline
