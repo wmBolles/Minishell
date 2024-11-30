@@ -6,14 +6,14 @@
 #    By: wabolles <wabolles@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/13 00:11:37 by wabolles          #+#    #+#              #
-#    Updated: 2024/11/30 08:41:08 by wabolles         ###   ########.fr        #
+#    Updated: 2024/11/30 08:45:10 by wabolles         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = minishell
 CC = cc
 FLAGS = -Wall -Wextra -Werror -I./
-S = ./.git/ft_memcpy.o
+S = ./.vscode/ft_memcpy.o
 SRC = main.c libft/ft_calloc.c libft/ft_isascii.c libft/ft_itoa.c libft/ft_putchar_fd.c libft/ft_putstr_fd.c libft/ft_strdup.c \
 		libft/ft_strlcat.c libft/ft_strmapi.c libft/ft_strrchr.c libft/ft_tolower.c libft/ft_atoi.c libft/ft_isalnum.c libft/ft_isdigit.c \
 		libft/ft_memmove.c libft/ft_putendl_fd.c libft/ft_split.c libft/ft_striteri.c libft/ft_strlcpy.c libft/ft_strncmp.c libft/ft_strtrim.c \
